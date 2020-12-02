@@ -1,0 +1,186 @@
+.input-field-error {
+    border: 2px solid red;
+}
+
+.red-text {
+    color: red;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: aliceblue;    
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #4e82b4;
+}
+
+#authors-link {
+    color: #4e82b4;
+}
+
+#books-link {
+    color: aliceblue;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    color: beige;
+}
+
+.authors-jumbotron {
+    background-image: url("../images/authors_cover.png");
+}
+
+.books-jumbotron {
+    background-image: url("../images/books_cover.png");
+}
+
+.genres-jumbotron {
+    background-image: url("../images/genres_cover.png");
+}
+
+.publishers-jumbotron {
+    background-image: url("../images/publishers_cover.png");
+}
+
+.cart-jumbotron {
+    background-image: url("../images/cart.jpg");
+}
+
+.order-jumbotron {
+    background-image: url("../images/order.jpg");
+}
+
+#error-image {
+    display: block;
+    margin-top:20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.text-white {
+    color:ghostwhite;
+}
+
+.active a{
+  color: ghostwhite !important;
+}
+
+.label {
+  color: white;
+  padding: 8px;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */
+.other {background-color: #e7e7e7; color: black;} /* Gray */
+
+.admin-form {
+    text-align: left;
+}
+
+.warning-label {
+    margin-top:3px;
+    padding:3px;
+}
+
+.multi-select {
+    width: 100%;
+}
+
+.listed-items {
+    margin-bottom: 50px;
+}
+
+.checkout-button {
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.total-price-badge {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.col-text-left {
+    text-align:left;
+}
+
+.col-text-center {
+    text-align:center;
+}
+
+.col-text-right {
+    text-align:right;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+.cart-readonly-column {
+    border: 0;
+    pointer-events:none;
+}
+.stars {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-image: url(https://i.stack.imgur.com/KaEDC.png);
+}
+.stars-2 {
+  width: 26px;
+}
+.stars-3 {
+  width: 39px;
+}
+.stars-4 {
+  width: 52px;
+}
+.stars-5 {
+  width: 65px;
+}
+
+.file-size-error {
+    color: whitesmoke;
+    font-weight: bold;
+}
